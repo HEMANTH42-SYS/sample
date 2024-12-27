@@ -7,7 +7,7 @@ body {
 
 header {
     text-align: center;
-    background: url('/balls.jpeg') no-repeat center center;
+    background: url('header-bg.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     padding: 100px 20px;
