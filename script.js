@@ -1,4 +1,10 @@
-// A simple JavaScript to handle button click
-document.getElementById('clickMe').addEventListener('click', function() {
-    alert("Button clicked! 🎉");
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Website is fully loaded");
+
+    const navLinks = document.querySelectorAll("nav a");
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            alert(`You clicked on ${link.textContent}`);
+        });
+    });
 });
