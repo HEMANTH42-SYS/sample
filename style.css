@@ -12,6 +12,14 @@ header {
     color: #fff;
     padding: 100px 20px;
 }
+header {
+    text-align: center;
+    background: url('balls.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    height: 100vh; /* Adjust height if needed */
+}
 
 header h1 {
     font-size: 4em;
