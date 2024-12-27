@@ -1,25 +1,56 @@
+/* HTML File: index.html */
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Eye-Catching Website</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Simple Website</h1>
+        <h1>Welcome to My Website</h1>
+        <p>Explore, Enjoy, and Get Inspired</p>
     </header>
-    
-    <section>
-        <p>This is a sample website hosted on GitHub Pages!</p>
-        <button id="clickMe">Click me!</button>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#places">Places Visited</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Hemanth, a passionate web developer and cloud enthusiast.</p>
     </section>
 
-    <footer>
-        <p>Made with ❤️ using GitHub Pages</p>
-    </footer>
+    <section id="places">
+        <h2>Places Visited</h2>
+        <div class="places">
+            <div class="place">Andhra Pradesh</div>
+            <div class="place">Chennai</div>
+            <div class="place">Kolkata</div>
+            <div class="place">Delhi</div>
+            <div class="place">Mumbai</div>
+            <div class="place">Hawaii</div>
+            <div class="place">Texas</div>
+        </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Check out my latest projects on <a href="https://github.com/HEMANTH42-SYS" target="_blank">GitHub</a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out at <a href="mailto:hemanth@example.com">hemanth@example.com</a>.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Hemanth Kumar Kari. All rights reserved.</p>
+    </footer>
 </body>
 </html>
